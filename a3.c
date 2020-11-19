@@ -1,36 +1,42 @@
 #include <stdio.h>
 void main()
 {
-    int a, b, y;
+    int num_1, num_2, da_an;
     char da;
     printf("请输入第一个数字");
-    scanf("%d", &a);
+    scanf("%d", &num_1);
 
     fflush(stdin);
     //	ffush(stdin);
     printf("请输入第二个数字");
-    scanf("%d", &b);
+    scanf("%d", &num_2);
     printf("请输入符号");
-    scanf("%s", &da);
-    //	printf("")
+    // scanf("%s", &da);
+    da = getchar();
+
+    printf("da是%s", da);
+
     switch (da)
     {
     case '*':
-        y = a * b;
+        da_an = num_1 * num_2;
         //			printf("a*b=%d",&y);
         break;
     case '/':
-        y = a / b;
+        da_an = num_1 / num_2;
         //			printf("a/b=%d",&y);
         break;
     case '+':
-        y = a + b;
+        da_an = num_1 + num_2;
+        printf("加了");
         //			printf("a+b=%d",&y);
         break;
     case '-':
-        y = a - b;
+        da_an = num_1 - num_2;
         //			printf("a-b=%d",&y);
         break;
+    default:
+        printf("wogan");
     }
-    printf("%d%s%d的运算结果为:%d", &a, &da, &b, &y);
+    printf("%d%s%d的运算结果为:%d", num_1, da, num_2, &da_an);
 }
