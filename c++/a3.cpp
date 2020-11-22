@@ -1,10 +1,6 @@
-#include <iostream>
+#include <stdio.h>
 int main(){
-    using namespace std;
-    cout << "hello, word";
-    cout << endl;
-    cout << endl;
-    cout << "----hello, word----";
+    printf("你好");
+    return 0;
 
 }
-

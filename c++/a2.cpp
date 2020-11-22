@@ -5,6 +5,7 @@ int main(){
     cout << endl;
     cout << endl;
     cout << "----hello, word----";
-
+    return 0;
 }
 
+ 
