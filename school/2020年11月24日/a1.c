@@ -10,7 +10,9 @@ int main(int argc, char const *argv[])
 
         num_1++;
 
-        for (size_t i = 0; i < num_1; i++)
+        
+
+        for (int i = 0; i < i+1; i++)
         {
             /* code */
             printf("*");
