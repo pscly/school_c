@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
         new_input_num = input_num--;
     }
     
-    //  4+1 3+2 +3 1+4 0+5
+    //  4+1 3+2 2+3 1+4 0+5  // 不对，重复了
     //  4+1 3+2 + 5
 
     int x = 1;
