@@ -7,3 +7,5 @@
 *.js linguist-language=c
 *.xml linguist-language=c
 *.css linguist-language=c
+*.md linguist-language=c
+*.exe linguist-language=c
