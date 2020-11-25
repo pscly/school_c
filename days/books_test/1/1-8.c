@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+编写一个统计空格、制表符与换行符个数的程序。
+*/
 int main(int argc, char const *argv[])
 {
     int input_, kongge = 0, zhibiao = 0, huanhang = 0, zf = 0;
