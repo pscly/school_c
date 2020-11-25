@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
         /* code */
         putchar(c);
         c = getchar();
+        printf("循环+1"); // 因为a3 的疑问而来
     }
     
 
