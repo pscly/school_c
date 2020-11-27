@@ -2,6 +2,7 @@
 .vscode
 .idea
 *dSYM/
+CMakeFiles/
 *.yml linguist-language=c
 *.html linguist-language=c
 *.js linguist-language=c
