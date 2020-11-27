@@ -2,14 +2,7 @@
 .vscode
 .idea
 *dSYM/
-*.yml linguist-language=c
-*.html linguist-language=c
-*.js linguist-language=c
-*.xml linguist-language=c
-*.css linguist-language=c
-*.md linguist-language=c
+CMakeFiles/
 *.exe linguist-language=c
-*.make linguist-language=c
-*.obj linguist-language=c
 *.md linguist-language=c
 
