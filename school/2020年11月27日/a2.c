@@ -3,7 +3,7 @@
 int main(int argc, char const *argv[])
 {
     int sum_num = 0;
-    for (int i = 0; i < MAX_NUM; i++)
+    for (int i = 0; i <= MAX_NUM; i++)
     {
         if ((i % 10) == 3)
             continue;

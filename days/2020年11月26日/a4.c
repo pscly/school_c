@@ -10,8 +10,8 @@ int main(int argc, char const *argv[])
 
 }
 void my1(int x){
-    
-    x++;
+    extern int a;
+    a++;
     printf("\n+1了\nover是>>%d\n", x);
 }
 

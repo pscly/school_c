@@ -11,4 +11,4 @@
 *.exe linguist-language=c
 *.make linguist-language=c
 *.obj linguist-language=c
-
+*.md linguist-language=c

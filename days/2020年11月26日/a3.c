@@ -7,7 +7,7 @@ void copy(char to[], char from[]);
 int main()
 {
     int len;                   // 当前行的长度
-    int max;                   // 最长行的长度
+    int max;                  // 最长行的长度
     char now_line[MAXLINE];    // 当前行的文字
     char max_longest[MAXLINE]; // 最长行的文字
     max = 0;
